@@ -1,0 +1,445 @@
+{
+	"info": {
+		"_postman_id": "f9f5a80e-88c4-461c-8601-7bb50494afc1",
+		"name": "Sayari Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "79908"
+	},
+	"item": [
+		{
+			"name": "Users - Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Get One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/{{userId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"{{userId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Get Questions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/{{userId}}/questions",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"{{userId}}",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Get Answers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/{{userId}}/answers",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"{{userId}}",
+						"answers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Get Comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/{{userId}}/comments",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"{{userId}}",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Update",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/{{userId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"{{userId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/{{userId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"{{userId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Questions - Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Questions - Get One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Questions - Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Questions - Update",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Questions - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Answers - Get One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/answers/{{answerId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"answers",
+						"{{answerId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Answers - Get All for Question",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}/answers",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}",
+						"answers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Answers - Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}/answers",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}",
+						"answers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Answers - Update",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"accepted\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/answers/{{answerId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"answers",
+						"{{answerId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Answers - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/answers/{{answerId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"answers",
+						"{{answerId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comments - Get One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/comments/{{commentId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"comments",
+						"{{commentId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comments - Get All for Question",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}/comments",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comments - Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/questions/{{questionId}}/comments",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"questions",
+						"{{questionId}}",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comments - Update",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"accepted\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/comments/{{commentId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"comments",
+						"{{commentId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comments - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/comments/{{commentId}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"comments",
+						"{{commentId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
