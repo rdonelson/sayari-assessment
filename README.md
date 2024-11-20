@@ -111,7 +111,7 @@ In short, a lot of things. If I had all the time in the world:
 ## Code Setup
 I tried (and probably spent too much time) Dockerizing the app, but my Docker is a little rusty and didn't fully complete it. A Dockerfile is included, but I couldn't get it to run. I ended up running the app straight up with npm:
 ```
-$ npm run build && npm run dev
+$ npm install && npm run build && npm run dev
 ```
 The result of this command will be nodemon running the app on http://localhost:3000/
 
